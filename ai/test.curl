@@ -1,0 +1,7 @@
+curl -X POST "http://localhost:8001/trusty/api/v1/searchprofessional" \
+-H "Authorization: Bearer 5dj2jdn35bn23nohc0b2ob4ufpaqdhs" \
+-H "Content-Type: application/json" \
+-d '{"query":"test search"}' \
+-v
+
+

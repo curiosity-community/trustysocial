@@ -1,0 +1,147 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+/build/
+pubspec.lock
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/app/google-services.json
+**/android/app/key.jks
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner/GoogleService-Info.plist
+GoogleService-Info.plist
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+.flutter-plugins-dependencies
+android/app/google-services.json
+google-services.json
+
+android/.settings/org.eclipse.buildship.core.prefs
+android/app/.classpath
+android/.project
+android/app/.project
+android/app/.settings/org.eclipse.buildship.core.prefs
+android/app/.settings/org.eclipse.jdt.core.prefs
+android/app/google-services-dev.json
+android/app/google-services-pro.json
+lib/firebase_options.dart
+firebase.json
+firebase_prod_rules.json
+database.rules.json
+firestore.rules
+firestore.rules.json
+firestore.indexes.json
+storage.rules
+
+# Web related
+**/lib/generated_plugin_registrant.dart
+**/web/firebase-config.js
+
+# Environment files
+.env*
+*.env
+env.g.dart
+
+# Coverage reports
+coverage/
+*.lcov
+
+# FVM related
+.fvm/
+
+# Mason related 
+mason-lock.json
+.mason/
+
+# Build folders
+**/windows/
+**/macos/
+**/linux/
+
+# Release files
+android/app/release/
+
+# Sensitive Files
+ios/Runner/Info.plist
+!ios/Runner/Info.template.plist
+.env
+!.env.template
+make_new_version.sh
+prepare_for_claude.sh
+
+# Firebase Config Files
+**/google-services.json
+!google-services.template.json
+**/GoogleService-Info.plist
+!GoogleService-Info.template.plist
+firebase_options.dart
+!firebase_options.template.dart
+pushnotification.curl
+backup_configs/
+
+# Keep templates
+!*.template.*
