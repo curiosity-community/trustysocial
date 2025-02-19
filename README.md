@@ -96,6 +96,7 @@ Minimum requirements:
 - Flutter SDK: >=2.12.0
 - Dart: >=2.12.0
 - Firebase project
+- CocoaPods: >=1.16.2 (for iOS development)
 
 ## Contributing
 
